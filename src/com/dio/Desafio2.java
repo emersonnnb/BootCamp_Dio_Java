@@ -9,22 +9,10 @@ public class Desafio2 {
 		int num, i;
 		Scanner sc = new Scanner(System.in);
 				
-		System.out.println("Digite um numero: ");
 		num = sc.nextInt();
-		
-		
-	if (num % 2 !=0 ) {
-		num--;		
-	}
-	System.out.println(num);
-		
-	for( i=2; i <= num; i+=2) {
-		System.out.println(i);
-	}
-	
-		
-		
 			
-			
+		for( i=2; i <= num; i+=2) {
+			System.out.println(i);
+		}	
 	}
 }
